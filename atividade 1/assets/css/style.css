@@ -23,7 +23,7 @@ nav ul{
   list-style: none;
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 35%;
 }
 
 nav a{
@@ -54,6 +54,9 @@ nav a:hover{
   width: 50%;
   text-align: justify;
   padding: 30px;
+  margin-bottom: 1.5rem;
+}
+.texto p{
   margin-bottom: 20px;
 }
 
@@ -102,3 +105,16 @@ nav a:hover{
   width: 200px;
   height: 300px;
 }
+
+.pula {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px){
+  .sobreGeral{
+    flex-direction: column-reverse;
+  }
+  .texto{
+    width: 80px;
+  }
+}
+
